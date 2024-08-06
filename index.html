@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<header lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paigina principal</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
+        <link rel="stylesheet" href="./JS/index.js">
+    </head>
+
+    <body>
+        <header class="container">
+            <!--tag para imagem do logo da pagina-->
+            <figure>
+                <img class=imglo src="./img/pinha.png" alt=" Imagem logo">
+            </figure>
+            <nav class="menu-opcoes">
+                       <!--lista ordenada das paginas-->
+                <ul>
+                    <li><a href="./index.html">Página principal</a></li>
+                    <li><a href="./contato.html">Contato</a> </li>
+                    <li><a href="./conteudo.html">Conteudo</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+                <!--tag imagem que está no destaque-->
+            <section id="destaque">
+                <div class="container destaque">
+                    <figure>
+                        <img src="./img/ANN.png" alt=" imagem destaque">
+                    </figure>
+                </div>
+            </section>
+            <section id="destaques">
+
+                <div class="container paines">
+                    <!--painel de aula1-->
+                    <section class="painel aula1">
+                        <h2>Painel aula 1</h2>
+                        <ul>
+                            <li>
+                                <h3>Exer1</h3>
+                                <figure> <img class="imgexer" src="./img/html5.png" alt="incone de HTML">
+                                    <a href="./Aulas/Aula1/site1/exercicio1.html">Aqui</a>
+                                </figure>
+                            </li>
+                        </ul>
+                    </section>
+                    <!--painel de aula2-->
+                    <section class="painel aula2">
+                        <h2> Painel aula 2</h2>
+                        <ul>
+                            <li>
+                                <h3>Exer2</h3>
+                                <figure> <img class="imgexer" src="./img/html5.png" alt="incone de HTML"> </figure>
+                                <a href="./Aulas/Aula2/exercicio4.html">Aqui</a>
+
+                            </li>
+                        </ul>
+
+                    </section>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="container">
+                <!--input pagina inicial-->
+            
+            <input type="range" id="input-range" name="audio" min="0" max="1" step="0.01">
+            <!--tag audio  pagina inicial-->
+            <audio src="./Audio/anne.mp3" id="audioplay">
+            </audio>
+            <!--input para dar play no audio-->
+            <button id="Play">Play</button>
+            <!--tag para imagem do logo-->
+            <figure>
+                <img class=imglo src="./img/pinha.png" alt=" Imagem logo">
+            </figure>
+            <!--lista ordenada das redes sociais-->
+            <ul class="social">
+                <li><a href="https://www.instagram.com/sueleneduarda.ramos?igsh=ZjlpczYwMHgwYW41">instagram</a></li>
+                <li><a href="https://github.com/Sueleneduarda">github</a></li>
+                <li><a
+                        href="https://www.linkedin.com/in/suelen-eduarda-vieira-ramos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a>
+                </li>
+
+            </ul>
+
+        </footer>
+        <script src="./JS/index.js"> </script>
+
+    </body>
+
+    </html>

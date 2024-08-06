@@ -1,0 +1,159 @@
+.menu-opcoes ul{
+    font-size: 20px;
+
+}
+ 
+.menu-opcoes a{
+    color:rgb(9, 45, 17);
+}
+.menu-opcoes a:hover{
+    color:rgb(123, 204, 140);
+}
+
+.menu-opcoes a:active{
+    color: brown;
+}
+
+html, body{
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    width: 98%;
+    margin-right: auto;
+    margin-left:auto ;
+    position: relative;
+}
+
+.menu-opcoes {
+    position:absolute;
+    top: 3%;
+    right:40%;
+
+    }
+
+.menu-opcoes ul li{
+        display: inline;
+         margin-left: 20px;
+       
+
+    }
+
+    .imglo{
+       width:150px;
+       right:150px;
+    }
+
+
+    .painel{
+        width: 48%;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow:  inset 0px 0px 5px white;
+    }
+
+    .aula1{
+        float:left;
+        background-color: rgb(148, 214, 148);
+        background: linear-gradient(5deg, rgb(135, 207, 163), rgb(15, 99, 67));
+    }
+     .aula2{
+        float:right;
+        background-color:rgb(148, 214, 148);
+        background: linear-gradient(5deg, rgb(135, 207, 163), rgb(15, 99, 67));
+     }
+     .painel li{
+        display: inline-block;
+        width: 10%;
+        vertical-align: top;
+        margin: 2px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        text-align: center;
+     }
+
+     .painel li:hover{
+        box-shadow:10px 10px 5px rgb(5, 40, 21);
+        transition: 0,7s;
+        background-color: rgba(109, 173, 90, 0.8);
+        transform: scale(1.2);
+        rotate: -5deg;
+
+     }
+     
+     .painel h2{
+        font-family: cursive;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px rgba(68, 136, 59, 0.8);
+
+    }
+     
+    .painel a{
+        color: rgb(10, 76, 37);
+        font-size: 10px;
+        text-align: center;
+        font-family: cursive;
+
+    }
+
+    .social li a[href*=instagram] {
+        width: 50px;
+        height: 50px;
+        background-image:url(../img/insta.png) ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        display: block;
+        border-radius: 50%;
+        
+    }
+    .social li a[href*=github] {
+        width: 50px;
+        height: 50px;
+        background-image:url(../img/githu.png) ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-indent: -9999px;
+        display: block;
+    }
+    .social li a[href*=linkedin] {
+        width: 50px;
+        height: 50px;
+        background-image: url(../img/linkedin.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        display: block;}
+    .social{
+        position: absolute;
+        right: 10px;
+    }
+     footer{clear: both;}
+    
+     .social li{
+        float: left;
+        margin: 20px;
+     }
+     
+     body{
+        background-image: url(../img/fundocontato.png.jpg);}
+
+        .imgexer{
+            width: 60%;
+            height: 60%;
+        }
+
+.destaque img{
+    width: 30%;
+   height: 30%;
+}
+.destaque{
+    text-align: center;
+}
+
+
+    

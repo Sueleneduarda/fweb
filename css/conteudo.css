@@ -1,0 +1,172 @@
+.menu-opcoes ul {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.menu-opcoes a{
+    color:rgb(9, 45, 17);
+}
+.menu-opcoes a:hover{
+    color:rgb(123, 204, 140);
+}
+
+.container {
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.menu-opcoes {
+    position: absolute;
+    top: 3px;
+    right: 1000px;
+
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.imglo {
+    width: 15%;
+    height: 15%;
+
+}
+
+#imglupa {
+    width: 20px;
+}
+
+.busca{
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;}
+
+.menu-conteudo {
+    background-color: rgb(62, 119, 64);
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 35%;
+    margin-right: 10px;
+    float: left;
+    font-family: cursive;
+}
+
+.busca h2,
+.busca form,
+.menu-conteudo h2 {
+    margin: 10px;
+}
+
+.menu-conteudo li {
+    background-color: rgb(126, 180, 101);
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-conteudo {
+    clear: left;
+}
+
+.busca input {
+    vertical-align: middle;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    top: 0%;
+    right: 5%;
+
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes ul {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.social li a[href*=instagram] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/insta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+
+}
+
+.social li a[href*=github] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/githu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    display: block;
+}
+.social li a[href*=linkedin] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social {
+    position: absolute;
+    right: 10px;
+}
+
+footer {
+    clear: both;
+}
+
+.social li {
+    float: left;
+    margin: 20px;
+}
+
+body {
+    background-image: url(../img/fundocontato.png.jpg);
+}
+.menu-conteudo li ul{
+    /*display:nome; vai esconder o elemento*/
+    display:none;
+}
+.menu-conteudo li:hover ul{
+    display: block;
+}
+.menu-conteudo ul ul li{
+    background-color: rgb(62, 119, 64);
+}
+.menu-conteudo ul li a::before{
+    content: '<';
+}
+.menu-conteudo ul li a::after{
+    content: '>';
+}
+
+
+

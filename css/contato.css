@@ -1,0 +1,164 @@
+h1 {
+    background-image: url(../img/terrosa.png);
+    text-align: center;
+    padding: 200px;
+    font-family: cursive;
+    color: rgb(4, 43, 24);
+
+}
+
+h2 {
+    border-bottom: 20px solid rgba(68, 116, 62, 0.993);
+    margin-top: 30px;
+    color: rgb(4, 43, 24);
+    font-family: cursive;
+}
+
+h3 {
+    border-bottom: 20px solid rgba(68, 116, 62, 0.993);
+    margin-top: 30px;
+    color: rgb(4, 43, 24);
+    font-family: cursive;
+
+}
+
+p {
+    padding: 0 45px;
+    text-indent: 15px;
+    color: rgb(4, 43, 24);
+    font-family: cursive;
+}
+
+figure {
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+
+img {
+    width: 200px;
+    height: 300px;
+
+}
+
+#foto {
+    margin-left: 300px;
+    margin-right: 200px;
+    width: 150px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    top: 0%;
+    right: 5%;
+
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+    color: rgb(9, 45, 17);
+}
+
+.menu-opcoes a {
+    color: rgb(9, 45, 17);
+    font-family: cursive;
+    border-radius: 3px;
+}
+
+.menu-opcoes a:hover {
+    color: rgb(123, 204, 140);
+}
+
+.menu-opcoes ul {
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+body {
+    background-image: url(../img/fundocontato.png.jpg);
+}
+
+.social li a[href*=instagram] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/insta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+    border-radius: 50;
+
+}
+
+.social li a[href*=github] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/githu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=linkedin] {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social {
+    position: absolute;
+    right: 10px;
+}
+
+footer {
+    clear: both;
+}
+
+.social li {
+    float: left;
+    margin: 20px;
+}
+
+p:first-letter {
+    font-weight: bold;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h2+p {
+    text-indent: 0px;
+}
+
+p:first-line {
+    font-variant: small-caps;
+
+}
+
+video {
+    width: 50%;
+    height: auto;
+}
+
+.container {
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
