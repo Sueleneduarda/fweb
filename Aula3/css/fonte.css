@@ -1,0 +1,25 @@
+#p1{
+    font-family: serif ;
+    font-size: 22 pix ;
+}
+
+#p2{
+    font-family: sans-serif; 
+    font-size: 30pix ;
+    color: red;
+}
+#p3{ 
+    font-family: monospace;
+    font-size: 35pix ;
+    color: green;
+}
+#p4{ 
+    font-family: cursive;
+    font-size: 15pix ;
+    color: yellow;
+}
+#p5 {
+    font-family: fantasy;
+    font-size: 40pix ;
+    color: aqua;
+}

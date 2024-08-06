@@ -1,0 +1,26 @@
+.container{
+    width: 98%;
+    margin-right: auto;
+    margin-left:auto ;
+    position: relative;
+}
+
+.container a[href*=instagram]{
+    color: rgb(37, 43, 122);
+}
+
+.container a[href*=github]{
+    color: rgb(37, 43, 122);
+}
+ /*mouse por cima*/
+a:hover{
+    background-color: rgb(220, 241, 28);
+}
+/*link visitado*/
+a:visited{
+    background-color: rgb(165, 50, 42);
+}
+/*link clicado*/
+a:active{
+    background-color: rgb(43, 226, 83);
+}

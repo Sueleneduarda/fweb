@@ -1,0 +1,24 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 20px ;
+    
+     
+}
+
+#quad1 {
+   border-radius: 50px;
+}
+#quad2{ 
+    border-radius: 10px;;
+}
+#quad3{ 
+    border-radius: 20px;
+}
+#quad4 {
+    border-radius: 50% 10% 50% 10%/10% 50% 10% 50% ;
+}
+#quad5 {
+    border-radius: 10% 50% 10% 50%/ 50% 10% 50% 10%;
+}

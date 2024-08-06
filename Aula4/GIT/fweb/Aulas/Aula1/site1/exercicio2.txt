@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>		
+	<head>
+		<title>FWEB exercicio2 </title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Bem vindos à auala1 de Front End Web! </h1>
+		<h2>Tipo de HTML <b></h2>
+		<ul>* DOCTYPE
+		*HTML
+		*READ
+		*DOCTYPE
+			</p>
+		<a href=""> exercicio2 
+		
+	</body>
+</html>

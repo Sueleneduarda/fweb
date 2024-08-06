@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+
+<h1>Calculadora</h1>
+<body>
+
+
+    <main>
+        <input type="text" id="display" placeholder="0">
+        <div class="container">
+            <button class="btnpadrao" onclick="clearText ('c')">c</button>
+            <button class="btnpadrao" onclick="addOperator('Del')">Del</button>
+            <button class="btnpadrao" onclick="addOperator('%')">%</button>
+            <button class="btnpadrao" onclick="addOperator('/')">/</button>
+            <button class="btnpadrao" onclick="addOperator('*')">x</button>
+            <button class="btnpadrao" onclick="addOperator('-')">-</button>
+            <button class="btnpadrao" onclick="addOperator('+')">+</button>
+            <button class="btnpadrao" onclick="addNumber('1')">1</button>
+            <button class="btnpadrao" onclick="addNumber('2')">2</button>
+            <button class="btnpadrao" onclick="addNumber('3')">3</button>
+            <button class="btnpadrao" onclick="addNumber('4')">4</button>
+            <button class="btnpadrao" onclick="addNumber('5')">5</button>
+            <button class="btnpadrao" onclick="addNumber('6')">6</button>
+            <button class="btnpadrao" onclick="addNumber('7')">7</button>
+            <button class="btnpadrao" onclick="addNumber('8')">8</button>
+            <button class="btnpadrao" onclick="addNumber('9')">9</button>
+            <button class="btnpadrao" onclick="addNumber('0')">0</button>
+            <button class="btnpadrao" onclick="addDecimal(',')">,</button>
+            <button id= "calculo" onclick="calculate('=')">=</button>
+
+        </div>
+    </main>
+    
+    <script src="./calculadora.js"></script>
+
+</body>
+
+</html>

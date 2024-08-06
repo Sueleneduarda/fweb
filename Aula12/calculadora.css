@@ -1,0 +1,63 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+     height: 100%;
+}
+.container:hover{
+    color: rgb(18, 61, 47);
+}
+
+#display{
+    width: 100%;
+    height:50%;
+    border-radius: 10px;
+    background-color: rgb(105, 170, 97);
+    margin-top: 20%;
+}
+ /*estrutura da calculadora*/
+
+ main{
+    text-align: center;
+    color: rgb(247, 247, 247);
+    width: 40%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    
+ }
+ 
+ .btnpadrao{
+    border-radius: 10px;
+    color: rgb(247, 247, 247);
+    background-color: rgb(30, 82, 52);
+   
+
+ }
+
+ #calculo{
+    background-color: rgb(108, 189, 105);
+    width:200%;
+ }
+
+ body {
+    background-image: url(./fundocontato.png.jpg);
+}
+
+h1{
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(26, 49, 8);
+   font-family: cursive;
+   
+   
+}
+   
