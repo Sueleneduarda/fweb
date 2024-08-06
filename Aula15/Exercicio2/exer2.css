@@ -1,0 +1,10 @@
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(60, 148, 170, 0.63);
+
+}
